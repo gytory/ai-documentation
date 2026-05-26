@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 3. **Настройка базы данных**
 ```sql
-CREATE DATABASE corporate_assistant;
+CREATE DATABASE corp_docs;
 -- настроить подключение в .env или
 --заменить строку DATABASE_URL в файле database.py на свои данные
 ```
