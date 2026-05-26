@@ -1,0 +1,9 @@
+SECRET_KEY = "jwt-tokene"
+ALGORITHM = "HS256"
+ACCESS_EXPIRES_MINUTES = 60 * 24 * 7
+
+OLLAMA_URL = "http://localhost:11434"
+LLM_MODEL_NAME = "granite4:350m-h"
+
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 100
